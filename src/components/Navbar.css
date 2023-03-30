@@ -1,0 +1,9 @@
+.logo_h1{
+    padding-top: 10px;
+    font-weight: 600;
+}
+.mmmm img{
+    border-radius: 50%;
+    border: 10px solid rgb(82, 22, 131);
+    box-shadow: 0 0 30px 2px rgb(82, 22, 131) ;
+}
