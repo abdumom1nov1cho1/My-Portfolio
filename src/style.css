@@ -11,11 +11,11 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #1172b8;
 }
 
 .purple {
-  color: var(--imp-text-color) !important;
+  color: #0d5b94 !important;
 }
 
 button:focus {
@@ -62,13 +62,13 @@ button:focus {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: #1172b8;
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: #1172b8;
   border-radius: 12px;
 }
 
@@ -97,7 +97,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #1172b8 !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -194,7 +194,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #1172b8;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -257,9 +257,12 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
-  background-position: top center;
+  /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
+  /* background-position: top center; */
+  /* background-repeat: no-repeat center center; */
   background-repeat: no-repeat;
+  background-position: center center;
+
   padding-bottom: 30px !important;
   padding-top: 30px !important;
 }
@@ -281,17 +284,17 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #1172b8;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #1172b8 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #1172b8 !important;
 }
 
 @media (max-width: 767px) {
@@ -371,7 +374,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #68187a;
+  background: #1172b8;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -379,7 +382,7 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
+  box-shadow: 0 0 15px #1172b8;
 }
 
 .home-social-icons:hover {

@@ -41,8 +41,8 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img className="logo_my" style={{width:"60px"}} src="https://www.citypng.com/public/uploads/small/11662718888ene9znkndxa4asgqjzji2uiylskuzonh4e5hzjllcj1scenp8iofrsn8j58zuetudclt5xvmb8xqk2tsz3mmosbloepgddoozhob.png"  alt="brand" />
-          <h1 className="logo_h1" >NVAR</h1>
+          
+          <h1 className="logo_h1" >anco_coder</h1>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
