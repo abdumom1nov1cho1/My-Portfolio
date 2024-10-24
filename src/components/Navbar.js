@@ -7,7 +7,7 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
-import "../components/Navbar.css"
+import "../components/Navbar.css";
 import {
   AiFillStar,
   AiFillGithub,
@@ -41,8 +41,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          
-          <h1 className="logo_h1" >anco_coder</h1>
+          <img className="logo" src="../Assets/logo.png"  />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -90,11 +89,10 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <AiFillStar/>
+                <AiFillStar />
                 Резюме
               </Nav.Link>
             </Nav.Item>
-
 
             <Nav.Item className="fork-btn">
               <Button
